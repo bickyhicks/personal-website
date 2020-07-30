@@ -1,0 +1,250 @@
+
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #595959;
+}
+
+h1 {
+  text-align: center;
+  /* font-family: 'Libre Baskerville', serif; */
+  font-size: 6rem;
+  color: #fff;
+  padding-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  text-align: center;
+  color: #002147;
+  /* font-weight: 100; */
+  font-size: 3rem;
+  padding-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  color: #404040;
+  font-weight: 800;
+  font-size: 1.3rem;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+h4 {
+  color: #404040;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+p{
+  font-size:15.5px;
+}
+
+.container-fluid{
+  padding: 1% 20% 2%;
+}
+
+.color {
+  background-color: #E9D1C2;
+}
+
+/* NAVBAR */
+nav ul li {
+  list-style: none;
+  display: block;
+  margin: auto;
+  width: 120px;
+  background-color: #002147;
+  text-align: center;
+}
+
+ nav ul li:hover {
+  background-color: #B34BBC;
+}
+
+.navbar {
+  padding: 17px 0;
+}
+
+nav {
+  margin: 0 20px;
+  width: 120px;
+  /* background-color: #002147; */
+  float: left;
+  text-align: center;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+nav .dropdown{
+  display:none;
+}
+
+@media  (max-width: 800px) {
+  .navbar{
+    display:none;
+  }
+
+  nav .dropdown{
+    display: block;
+    font-size: 3rem;
+    float: left;
+  }
+
+  nav .dropdown:hover{
+    color: #8f8f8f;
+  }
+
+  .responsive {
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+
+  /* .responsive{
+    position:relative;
+  }
+
+  .responsive a{
+    display:block;
+  } */
+
+
+}
+
+
+/* HEADER */
+.header{
+  background-image: url(images/richmond-london.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 25%;
+  height: 100vh;
+  margin: 0;
+}
+
+.header-quote{
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* PROFILE */
+
+
+.profile-img {
+  width:100%;
+  border-radius: 50%;
+  padding: 25px 0;
+}
+
+.details {
+  text-align: right;
+  line-height: 80px;
+  padding: 25px 0;
+}
+
+.details p{
+  font-size: 1.2rem;
+}
+
+.fa-linkedin {
+  font-size: 2rem;
+  color: #404040;
+
+}
+
+.fa-linkedin:hover{
+  color: #8f8f8f;
+}
+
+@media (max-width: 1024px){
+  .profile {
+    text-align: center;
+
+  }
+
+  .profile-img{
+    width: 75%;
+    margin: auto;
+  }
+
+  .details{
+    display: none;
+  }
+}
+
+/* BODY */
+.col-sm-4 p {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+img {
+  width: 40%;
+  /* display: block;
+  margin: 0 auto; */
+}
+
+.row {
+  padding: 2% 0;
+}
+
+@media (max-width: 576px){
+  .logo{
+    display:none;
+  }
+
+  h4{
+    font-size: 1rem;
+  }
+
+  h1{
+    font-size:3rem;
+  }
+
+  .header-quote{
+    font-size: 0.75rem;
+  }
+}
+
+
+
+/* SKILLS */
+
+table {
+  margin: auto;
+  width: 75%;
+  line-height: 30px;
+}
+
+.table-icon {
+  text-align: right;
+}
+
+/* CONTACT */
+
+.contact table{
+  width: 100%;
+}
