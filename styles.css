@@ -3,6 +3,7 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
   color: #595959;
+  position: relative;
 }
 
 h1 {
@@ -37,6 +38,14 @@ h4 {
   font-family: 'Ramabhadra', sans-serif;
 }
 
+h5{
+  color: #404040;
+  font-weight: 500;
+  font-size: 1.0rem;
+  font-family: 'Ramabhadra', sans-serif;
+  margin-bottom: 10px;
+}
+
 p{
   font-size:15.5px;
 }
@@ -50,6 +59,11 @@ p{
 }
 
 /* NAVBAR */
+#navbar{
+  position: sticky;
+  top: 5px;
+}
+
 nav ul li {
   list-style: none;
   display: block;
@@ -211,6 +225,20 @@ img {
   padding: 2% 0;
 }
 
+.hide-info{
+  display: none;
+  transition: transform 5s;
+}
+
+.show-info{
+  transition: transform 5s;
+}
+
+.job-toggle:hover{
+  color: #B34BBC;
+  cursor: pointer;
+}
+
 @media (max-width: 576px){
   .logo{
     display:none;
@@ -241,6 +269,13 @@ table {
 
 .table-icon {
   text-align: right;
+}
+
+/* CREATIVE PROJECTS */
+
+.project-tiles img {
+  width: 63%;
+  margin: 0 auto;
 }
 
 /* CONTACT */
